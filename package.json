@@ -1,1 +1,12 @@
-{}
+{
+  "scripts": {
+    "build": "vite build",
+    "clean": "rm -rf .svelte-kit/ node_modules/ bun.lock",
+    "dev": "vite dev"
+  },
+  "type": "module",
+  "dependencies": {
+    "@sveltejs/kit": "^2.37.0",
+    "vite": "^7.1.3"
+  }
+}
