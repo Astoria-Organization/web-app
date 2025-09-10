@@ -1,13 +1,16 @@
 {
+  "license": "UNLICENSED",
   "scripts": {
     "build": "vite build",
-    "clean": "rm -rf .svelte-kit/ node_modules/ bun.lock",
+    "clean": "rm -rf .svelte-kit/ node_modules/ yarn.lock",
     "dev": "vite dev"
   },
   "type": "module",
   "dependencies": {
     "@sveltejs/adapter-auto": "^6.1.0",
     "@sveltejs/kit": "^2.37.0",
+    "@sveltejs/vite-plugin-svelte": "^6.2.0",
+    "svelte": "^5.38.8",
     "vite": "^7.1.3"
   }
 }
